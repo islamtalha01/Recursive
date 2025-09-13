@@ -27,7 +27,7 @@ const headerData: HeaderData = {
   logo: {
     src: "/assets/imgs/logo/logo.png",
     alt: "Site Logo",
-    href: "/ai-agency",
+    href: "/",
   },
   menuItems: [
     {
@@ -41,7 +41,7 @@ const headerData: HeaderData = {
       // ],
        
     },
-    { title: "About Us", href: "/ai-agency/about" },
+    { title: "About Us", href: "/about" },
     // {
     //   title: "Service",
     //   children: [
@@ -90,10 +90,10 @@ const headerData: HeaderData = {
     //     { title: "Blog Details", href: "/ai-agency/blog-details" },
     //   ],
     // },
-    { title: "Contact", href: "/ai-agency/contact" },
+    { title: "Contact", href: "/contact" },
   ],
   cta: {
-    href: "/ai-agency/contact",
+    href: "/contact",
     label: "Let’s Connect",
   },
 };

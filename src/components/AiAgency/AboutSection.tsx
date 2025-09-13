@@ -37,7 +37,7 @@ const AboutSection:React.FC<AboutProps> = ({data:aboutData}) => {
                   </p>
                 ))}
               </div>
-              <div
+              {/* <div
                 className="btn-wrapper fade-anim"
                 data-direction="right"
                 suppressHydrationWarning={true}
@@ -62,7 +62,7 @@ const AboutSection:React.FC<AboutProps> = ({data:aboutData}) => {
                     <i className="fa-solid fa-arrow-right"></i>
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

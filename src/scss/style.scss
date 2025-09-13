@@ -1858,7 +1858,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 40px;
-    padding-bottom: 26px;
+    padding-bottom: 30px;
 
     @media #{$lg} {
       padding-top: 20px;
@@ -2064,7 +2064,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 23px;
-    padding-bottom: 26px;
+    padding-bottom: 30px;
 
     @media #{$lg} {
       padding-top: 20px;
@@ -2322,7 +2322,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 33px;
-    padding-bottom: 22px;
+    padding-bottom: 30px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 
     @media #{$lg} {
@@ -2517,7 +2517,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 24px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 
     @media #{$sm} {
       grid-template-columns: 1fr;
@@ -9401,7 +9401,7 @@
   .team-wrapper {
     display: grid;
     gap: 40px 30px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 
     @media #{$md} {
       grid-template-columns: repeat(2, 1fr);

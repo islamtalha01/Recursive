@@ -18,34 +18,7 @@ const TeamSection: React.FC = () => {
                 <h2 className="section-title">{teamSectionContent?.title}</h2>
               </div>
             </div>
-            <div className="team-members">
-              <span className="number">
-                {teamSectionContent?.completedProjects}
-              </span>
-              <p className="text">{teamSectionContent?.projectsText}</p>
-            </div>
-            <div className="btn-wrapper">
-              <div className="t-btn-group">
-                <Link
-                  className="t-btn t-btn-circle"
-                  href={teamSectionContent?.exploreLink || "#"}
-                >
-                  <i className="fa-solid fa-arrow-right"></i>
-                </Link>
-                <Link
-                  className="t-btn t-btn-primary"
-                  href={teamSectionContent?.exploreLink || "#"}
-                >
-                  Explore More
-                </Link>
-                <Link
-                  className="t-btn t-btn-circle"
-                  href={teamSectionContent?.exploreLink || "#"}
-                >
-                  <i className="fa-solid fa-arrow-right"></i>
-                </Link>
-              </div>
-            </div>
+           
           </div>
 
           <div className="team-wrapper-box">

@@ -12,7 +12,7 @@ const FooterSection: React.FC<FooterSectionProps> = ({ data: footerData }) => {
         <img src={footerData?.bgImage} alt="image" />
       </div>
 
-      <div className="cta-area-3 fade-anim" suppressHydrationWarning={true}>
+      {/* <div className="cta-area-3 fade-anim" suppressHydrationWarning={true}>
         <div className="container">
           <div className="cta-area-3-inner section-spacing-top" suppressHydrationWarning={true}>
             <div className="section-header" suppressHydrationWarning={true}>
@@ -52,10 +52,10 @@ const FooterSection: React.FC<FooterSectionProps> = ({ data: footerData }) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="footer-widget-wrapper-box">
-        <div className="container">
+      {/* <div className="footer-widget-wrapper-box"> */}
+        {/* <div className="container">
           <div className="footer-widget-wrapper">
             <div className="footer-widget-box">
               <div className="info-box">
@@ -73,18 +73,12 @@ const FooterSection: React.FC<FooterSectionProps> = ({ data: footerData }) => {
                   ))}
                 </ul>
 
-                <div className="social-links">
-                  {footerData?.socialLinks?.map((social:SocialLink, index:number) => (
-                    <Link key={index} href={social?.href || "#"}>
-                      <i className={social?.icon}></i>
-                    </Link>
-                  ))}
-                </div>
+               
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
 
       <div className="copyright-area">
         <div className="container">

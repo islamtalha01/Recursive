@@ -40,9 +40,47 @@ const AboutTwoSection: React.FC<AboutTwoSectionProps> = ({
                 />
               </div>
             </div>
-
+             <div className="thumb thumb-1">
+              <div className="shape-1">
+                <img
+                  src={aboutTwoData?.thumb1?.shape1}
+                  alt={aboutTwoData?.thumb1?.alt1 || "shape"}
+                />
+              </div>
+              <div className="image img_anim_reveal" suppressHydrationWarning={true}>
+                <img
+                  src={aboutTwoData?.thumb1?.image}
+                  alt={aboutTwoData?.thumb1?.alt2 || "main image"}
+                />
+              </div>
+            </div>
+             <div className="thumb thumb-1">
+              <div className="shape-1">
+                <img
+                  src={aboutTwoData?.thumb1?.shape1}
+                  alt={aboutTwoData?.thumb1?.alt1 || "shape"}
+                />
+              </div>
+              <div className="image img_anim_reveal" suppressHydrationWarning={true}>
+                <img
+                  src={aboutTwoData?.thumb1?.image}
+                  alt={aboutTwoData?.thumb1?.alt2 || "main image"}
+                />
+              </div>
+            </div>
+ {/* <div className="thumb thumb-2">
+              <span className="brand-text">
+                {aboutTwoData?.thumb3?.brandText}
+              </span>
+              <div className="image img_anim_reveal" suppressHydrationWarning={true}>
+                <img
+                  src={aboutTwoData?.thumb3?.image}
+                  alt={aboutTwoData?.thumb3?.alt || "shape"}
+                />
+              </div>
+            </div> */}
             {/* Thumb 2 */}
-            <div className="thumb thumb-2">
+            {/* <div className="thumb thumb-2">
               <div className="shape-1">
                 <img
                   src={aboutTwoData?.thumb2?.logo}
@@ -50,7 +88,7 @@ const AboutTwoSection: React.FC<AboutTwoSectionProps> = ({
                 />
               </div>
 
-              {/* Video Button */}
+              
               <div className="video-button">
                 <button
                   className="video-popup"
@@ -67,7 +105,7 @@ const AboutTwoSection: React.FC<AboutTwoSectionProps> = ({
                 </button>
               </div>
 
-              {/* Video background (optional) */}
+           
               <div className="video">
                 <video loop muted autoPlay playsInline>
                   <source
@@ -76,10 +114,10 @@ const AboutTwoSection: React.FC<AboutTwoSectionProps> = ({
                   />
                 </video>
               </div>
-            </div>
+            </div> */}
 
             {/* Thumb 3 */}
-            <div className="thumb thumb-3">
+            {/* <div className="thumb thumb-3">
               <span className="brand-text">
                 {aboutTwoData?.thumb3?.brandText}
               </span>
@@ -89,7 +127,7 @@ const AboutTwoSection: React.FC<AboutTwoSectionProps> = ({
                   alt={aboutTwoData?.thumb3?.alt || "shape"}
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

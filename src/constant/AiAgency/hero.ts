@@ -28,10 +28,10 @@ const heroData: HeroData = {
     titleText: "AI agents ",
     titleSpanTwo: "steerable and aligned",
     subtitle: "We align foundation AI models with human intent through steerable, verifiable world models for safe, trustworthy deployment.",
-    primaryBtnText: "Get Started",
-    primaryBtnLink: "/ai-agency/contact",
+    primaryBtnText: "About Us",
+    primaryBtnLink: "/about",
     secondaryBtnText: "Contact Us",
-    secondaryBtnLink: "/ai-agency/contact",
+    secondaryBtnLink: "/contact",
     brandTitle: "300+ Trusted Clients Over Worldwide",
     brands: [
       { image: "/assets/imgs/brand/brand-10.webp" },

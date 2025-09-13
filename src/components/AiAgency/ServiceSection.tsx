@@ -10,18 +10,18 @@ const ServiceSection: React.FC = () => {
         <Container>
           <div className="section-header">
             <div className="section-title-wrapper fade-anim" suppressHydrationWarning={true}>
-              <div className="subtitle-wrapper">
+              {/* <div className="subtitle-wrapper">
                 <span className="section-subtitle">
                   {serviceSectionData?.subtitle}
                 </span>
-              </div>
+              </div> */}
               <div className="title-wrapper">
                 <h2 className="section-title">
                   {serviceSectionData?.title}
                 </h2>
               </div>
             </div>
-            <div className="btn-wrapper fade-anim" suppressHydrationWarning={true}>
+            {/* <div className="btn-wrapper fade-anim" suppressHydrationWarning={true}>
               <div className="t-btn-group">
                 <Link
                   className="t-btn t-btn-circle"
@@ -42,7 +42,7 @@ const ServiceSection: React.FC = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </Container>
 
@@ -60,9 +60,9 @@ const ServiceSection: React.FC = () => {
                       <Nav.Link eventKey={service?.id} role="tab">
                         <div className="service-name">
                           <h2 className="title">{service?.title}</h2>
-                          <p className="text">
+                          {/* <p className="text">
                             {service?.projectsAvailable} Projects Available
-                          </p>
+                          </p> */}
                         </div>
                       </Nav.Link>
                     </Nav.Item>
@@ -74,9 +74,9 @@ const ServiceSection: React.FC = () => {
                     <Tab.Pane key={service?.id} eventKey={service?.id}>
                       <div className="service-box-4">
                         <div className="thumb">
-                          <div className="meta">
+                          {/* <div className="meta">
                             {service?.projectsDone} Projects Done
-                          </div>
+                          </div> */}
                           <img
                             src={service?.image}
                             alt={service?.title || "Service image"}
@@ -85,7 +85,7 @@ const ServiceSection: React.FC = () => {
                         <div className="content">
                           <h3 className="title">{service?.title}</h3>
                           <p className="text">{service?.description}</p>
-                          <div className="t-btn-group">
+                          {/* <div className="t-btn-group">
                             <Link
                               className="t-btn t-btn-circle"
                               href={service?.detailLink || "#"}
@@ -104,7 +104,7 @@ const ServiceSection: React.FC = () => {
                             >
                               <i className="fa-solid fa-arrow-right"></i>
                             </Link>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </Tab.Pane>

@@ -11,7 +11,7 @@ interface IWorkProps {
   all?: boolean;
 }
 const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
-  const totalPortfolio = all ? portfolioItems : portfolioItems?.slice(0, 4);
+  const totalPortfolio = all ? portfolioItems : portfolioItems?.slice(0, 2);
 
   return (
     <section className="work-area-4">
@@ -26,9 +26,9 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
               <div className="section-header">
                 <div className="section-title-wrapper fade-anim" suppressHydrationWarning={true}>
                   <div className="subtitle-wrapper">
-                    <span className="section-subtitle">
+                    {/* <span className="section-subtitle">
                       {workSectionContent?.subtitle}
-                    </span>
+                    </span> */}
                   </div>
                   <div className="title-wrapper">
                     <h2 className="section-title">
@@ -37,36 +37,10 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
                   </div>
                 </div>
 
-                <div className="btn-wrapper fade-anim" suppressHydrationWarning={true}>
-                  <div className="t-btn-group">
-                    <Link
-                      className="t-btn t-btn-circle"
-                      href={workSectionContent?.exploreLink || "#"}
-                    >
-                      <i className="fa-solid fa-arrow-right"></i>
-                    </Link>
-                    <Link
-                      className="t-btn t-btn-primary"
-                      href={workSectionContent?.exploreLink || "#"}
-                    >
-                      Explore More
-                    </Link>
-                    <Link
-                      className="t-btn t-btn-circle"
-                      href={workSectionContent?.exploreLink || "#"}
-                    >
-                      <i className="fa-solid fa-arrow-right"></i>
-                    </Link>
-                  </div>
-                </div>
+               
               </div>
 
-              <div className="completed-projects move-anim" suppressHydrationWarning={true}>
-                <span className="number">
-                  {workSectionContent?.completedProjects}
-                </span>
-                <p className="text">{workSectionContent?.projectsText}</p>
-              </div>
+           
             </div>
           )}
 
@@ -74,23 +48,23 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
             <div className="works-wrapper">
               {totalPortfolio?.map((item: PortfolioItem, index: number) => (
                 <div className="work-box-4 work-panel" key={index}>
-                  <div className="thumb">
-                    <div className="meta">
+                  {/* <div className="thumb"> */}
+                    {/* <div className="meta">
                       {item?.tags?.map((tag: string, idx: number) => (
                         <span className="tag" key={idx}>
                           {tag}
                         </span>
                       ))}
-                    </div>
-                    <img
+                    </div> */}
+                    {/* <img
                       src={item?.image}
                       alt={item?.title || "Portfolio Image"}
-                    />
-                  </div>
+                    /> */}
+                  {/* </div> */}
 
                   <div className="content-wrapper">
-                    <div className="content">
-                      <p className="text">Project Name:</p>
+                    <div className="">
+                      <p className="text"></p>
                       <h3 className="title">{item?.title}</h3>
                     </div>
 
@@ -105,7 +79,7 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
                         className="t-btn t-btn-primary"
                         href={item?.link || "#"}
                       >
-                        Full Project
+                        Full Paper Access
                       </Link>
                       <Link
                         className="t-btn t-btn-circle"

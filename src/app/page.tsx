@@ -71,9 +71,9 @@ const Home = (): ReactElement => {
           <ServiceSection />
           <WorkSection />
           <TeamSection />
-          <ProcessSection data={processData}/>
-          <TestimonialSlider data={testimonialData}/>
-          <BlogSection data={blogData}/>
+          {/* <ProcessSection data={processData}/> */}
+          {/* <TestimonialSlider data={testimonialData}/>
+          <BlogSection data={blogData}/> */}
         </main>
         <FooterSection data={footerData}/>
       </SmoothScroll>

@@ -8,16 +8,16 @@ export interface AboutData {
   buttonText: string;
 }
 const aboutData = {
-  subtitle: "About Us",
-  title: "We're developing technology to prevent AI agents from drifting off-course during critical tasks.",
+  subtitle: "",
+  title: "The AI Alignment Imperative",
   paragraphs: [
    
-    "More precisely, our mission is to keep long‑horizon AI on plan, by aligning foundation AI models/AI agents with human intent through steerable, verifiable world models for safe, trustworthy deployment.",
-     "AI agents are being deployed everywhere (not just in software engineering, also critical domains like finance, law, etc)",
+    "AI systems are becoming increasingly sophisticated and capable, taking on larger and more complex tasks across all aspects of human society.However, they operate with significant misalignment between their learned objectives and true human intent, making alignment the most critical challenge we face",
+     "As AI systems take on complex roles, the gap between their learned objectives and human intent becomes increasingly risky. Current agents often misinterpret user world models and fail to capture nuanced goals, leading to decisions based on incomplete or incorrect assumptions about what humans actually want.",
   ],
   image: "/assets/imgs/shape/shape-23.webp",
   imageAlt: "About Us",
-  aboutLink: "/ai-agency/about",
+  aboutLink: "  /about",
   buttonText: "About Us",
 };
 
