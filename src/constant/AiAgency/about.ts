@@ -13,7 +13,7 @@ const aboutData = {
   paragraphs: [
    
     "More precisely, our mission is to keep long‑horizon AI on plan, by aligning foundation AI models/AI agents with human intent through steerable, verifiable world models for safe, trustworthy deployment.",
-     "AI agents are being deployed everywhere (not just in software engineering, also critical domains like finance, law, etc",
+     "AI agents are being deployed everywhere (not just in software engineering, also critical domains like finance, law, etc)",
   ],
   image: "/assets/imgs/shape/shape-23.webp",
   imageAlt: "About Us",
