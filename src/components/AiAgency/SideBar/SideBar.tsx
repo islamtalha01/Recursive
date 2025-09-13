@@ -24,17 +24,17 @@ const Sidebar = ({
             {/* Header */}
             <div className="offset-widget offset-header">
               <div className="offset-logo">
-                <Link href="/ai-agency/">
+                <Link href="/">
                   <img src={sidebarData.logo} alt="site logo" />
                 </Link>
               </div>
-              <button
+              {/* <button
                 id="side-info-close"
                 className="side-info-close"
                 onClick={handleSidebar}
               >
                 <i className={sidebarData.closeIcon}></i>
-              </button>
+              </button> */}
             </div>
 
             {/* Mobile menu container (if needed for JS menu toggle logic) */}
@@ -43,7 +43,7 @@ const Sidebar = ({
             </div>
 
             {/* Info Box */}
-            <div className="offset-info-box">
+            {/* <div className="offset-info-box">
               <h2 className="title">{sidebarData?.title}</h2>
               <p className="text">{sidebarData?.description}</p>
               <div className="t-btn-group">
@@ -65,18 +65,18 @@ const Sidebar = ({
                 >
                   <i className={sidebarData?.ctaIcon}></i>
                 </Link>
-              </div>
+              </div> */}
 
               {/* Gallery */}
-              <div className="post-image">
+              {/* <div className="post-image">
                 {sidebarData?.gallery?.map((img, i) => (
                   <img key={i} src={img} alt={`gallery-${i}`} />
                 ))}
-              </div>
+              </div> */}
             </div>
 
             {/* Contact Info */}
-            <div className="offset-widget-box">
+            {/* <div className="offset-widget-box">
               <h2 className="title">Information</h2>
               <div className="contact-meta">
                 <div className="contact-item">
@@ -97,10 +97,10 @@ const Sidebar = ({
                   <span className="text">{sidebarData?.contact?.address}</span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Social Links */}
-            <div className="offset-widget-box">
+            {/* <div className="offset-widget-box">
               <h2 className="title">Connect Us On</h2>
               <div className="social-links">
                 {sidebarData.social.map((social, i) => (
@@ -109,13 +109,13 @@ const Sidebar = ({
                   </a>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             {/* Footer Logo */}
             <div className="offset-logo-footer">
               <img src={sidebarData.footerLogo} alt="footer logo" />
             </div>
-          </div>
+          {/* </div> */}
         </div>
       </aside>
 

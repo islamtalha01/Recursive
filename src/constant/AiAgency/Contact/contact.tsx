@@ -23,20 +23,20 @@ export interface IContact {
 
 const contactData: IContact = {
   subtitle: "Let’s connect",
-  title: "Let’s work together",
+  title: "Let’s Connect",
   description:
-    "People know what an FAQ is, so make that your page title. Don’t over complicate thing have calling it’s good to know or more info.",
+    "We welcome inquiries from investors, researchers, and organizations interested in AI safety. Our team will respond to serious inquiries within 48 hours.",
   contactInfo: [
     {
       icon: "/assets/imgs/icon/icon-17.webp",
-      label: "example@avertog.com",
-      link: "mailto:example@avertog.com",
+      label: "contact@recursive-safeguarding.org",
+      link: "mailto:contact@recursive-safeguarding.org",
     },
-    {
-      icon: "/assets/imgs/icon/icon-18.webp",
-      label: "+1 287-366-566",
-      link: "tel:+1287366566",
-    },
+    // {
+    //   icon: "/assets/imgs/icon/icon-18.webp",
+    //   label: "+1 287-366-566",
+    //   link: "tel:+1287366566",
+    // },
   ],
   socialLinks: [
     { icon: "fa-facebook-f", link: "#" },

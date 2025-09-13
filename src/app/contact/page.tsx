@@ -14,7 +14,7 @@ import contactData from "@/constant/AiAgency/Contact/contact";
 import chooseUsData from "@/constant/AiAgency/common/choose-us";
 
 export const metadata: Metadata = {
-  title: "Contact || Averto - Creative Digital Agency NextJS Template",
+  title: "Contact || Recursive - Creative Digital Agency NextJS Template",
   description:
     "Get in touch with the Averto team. Whether you have questions, project inquiries, or want to collaborate, our contact page makes it easy to connect.",
   keywords: [
@@ -49,13 +49,13 @@ const Home = (): ReactElement => {
       <SmoothScroll>
         <main>
           <Breadcrumb
-            title="AGENCY"
-            subTitle="Contact"
-            pageName="AGENCY CONTACT"
+            title="Contact"
+            subTitle="Recursive"
+            pageName="Contact Us"
           />
-          <ContactMetaSection />
+          {/* <ContactMetaSection /> */}
           <ContactSection data={contactData} />
-          <ChooseUsSection chooseUSTwo={true} data={chooseUsData} />
+          {/* <ChooseUsSection chooseUSTwo={true} data={chooseUsData} /> */}
         </main>
         <FooterSection data={footerData} />
       </SmoothScroll>

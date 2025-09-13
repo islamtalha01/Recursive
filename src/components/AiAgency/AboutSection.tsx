@@ -17,11 +17,11 @@ const AboutSection:React.FC<AboutProps> = ({data:aboutData}) => {
             </div>
             <div className="section-content">
               <div className="section-title-wrapper fade-anim" suppressHydrationWarning={true}>
-                <div className="subtitle-wrapper">
+                {/* <div className="subtitle-wrapper">
                   <span className="section-subtitle">
                     {aboutData?.subtitle}
                   </span>
-                </div>
+                </div> */}
                 <div className="title-wrapper">
                   <h2 className="section-title">{aboutData?.title}</h2>
                 </div>

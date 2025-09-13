@@ -58,13 +58,13 @@ const AboutPage = (): ReactElement => {
       <Header />
       <SmoothScroll>
         <main>
-          <Breadcrumb title="ABOUT" subTitle="Agency" pageName="ABOUT AGENCY" />
+          <Breadcrumb title="ABOUT" subTitle=" Recursive" pageName="ABOUT Us" />
           <AboutSection data={aboutData} />
           <VideoSection data={videoData} />
-          <BrandSection data={brandData} brandSix={true} />
+          {/* <BrandSection data={brandData} brandSix={true} /> */}
           <TeamsSection />
-          <TextSliderSection data={textSliderData} />
-          <BlogSection data={blogData} />
+          {/* <TextSliderSection data={textSliderData} />
+          <BlogSection data={blogData} /> */}
         </main>
         <FooterSection data={footerData} />
       </SmoothScroll>
