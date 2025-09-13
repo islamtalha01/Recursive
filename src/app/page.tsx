@@ -13,7 +13,7 @@ import TestimonialSlider from "@/components/AiAgency/TestimonialSection";
 import TextSliderSection from "@/components/AiAgency/TextSliderSection";
 import WorkSection from "@/components/AiAgency/WorkSection";
 import SmoothScroll from "@/components/AiAgency/Animation/SmoothScroll";
-
+import WorkSectionCarousal from "@/components/AiAgency/WorkSectionCarousal";
 export const metadata: Metadata = {
   title: "AI Agency || Averto - Creative Digital Agency NextJS Template",
   description:
@@ -70,6 +70,7 @@ const Home = (): ReactElement => {
           <AboutSection data={aboutData}/>
           <ServiceSection />
           <WorkSection />
+          <WorkSectionCarousal />
           <TeamSection />
           {/* <ProcessSection data={processData}/> */}
           {/* <TestimonialSlider data={testimonialData}/>

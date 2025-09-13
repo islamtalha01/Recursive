@@ -10,7 +10,7 @@ interface IWorkProps {
   type?: string;
   all?: boolean;
 }
-const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
+const WorkSectionCarousal: React.FC<IWorkProps> = ({ all, type }) => {
   const totalPortfolio = all ? portfolioItems : portfolioItems?.slice(0, 4);
 
   return (
@@ -48,19 +48,19 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
             <div className="works-wrapper">
               {totalPortfolio?.map((item: PortfolioItem, index: number) => (
                 <div className="work-box-4 work-panel" key={index}>
-                  {/* <div className="thumb"> */}
-                    {/* <div className="meta">
+                  <div className="thumb">
+                    <div className="meta">
                       {item?.tags?.map((tag: string, idx: number) => (
                         <span className="tag" key={idx}>
                           {tag}
                         </span>
                       ))}
-                    </div> */}
-                    {/* <img
+                    </div> 
+                     <img
                       src={item?.image}
                       alt={item?.title || "Portfolio Image"}
-                    /> */}
-                  {/* </div> */}
+                    />
+                   </div> 
 
                   <div className="content-wrapper">
                     <div className="">
@@ -79,7 +79,7 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
                         className="t-btn t-btn-primary"
                         href={item?.link || "#"}
                       >
-                       For Access
+                        Full Paper Access
                       </Link>
                       <Link
                         className="t-btn t-btn-circle"
@@ -99,4 +99,4 @@ const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
   );
 };
 
-export default WorkSection;
+export default WorkSectionCarousal;
