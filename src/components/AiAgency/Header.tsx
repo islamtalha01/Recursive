@@ -67,7 +67,7 @@ const Header: React.FC = () => {
 
   return (
     <>
-      {/* <Sidebar isOpen={isOpen} handleSidebar={handleSidebar} /> */}
+      <Sidebar isOpen={isOpen} handleSidebar={handleSidebar} />
       <header className="header-area-4">
         <div className="header-main header-sticky">
           <div className="container">

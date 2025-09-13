@@ -6855,11 +6855,11 @@
         }
 
         .title {
-          color: var(--black);
+          color: var(--white);
         }
 
         .text {
-          color: var(--black);
+          color: var(--white);
           opacity: 1;
         }
       }
@@ -9974,11 +9974,11 @@
     align-items: flex-start;
 
     @media #{$xl} {
-      grid-template-columns: 1fr 560px;
+      grid-template-columns: repeat(4, 1fr);
     }
 
     @media #{$lg} {
-      grid-template-columns: 1fr 480px;
+       grid-template-columns: repeat(4, 1fr);
     }
 
     @media #{$md} {
@@ -13565,7 +13565,7 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 1.42;
-    color: #aff42b;
+    color: white;
     border: 1px solid var(--white);
     padding: 2px 20px;
     border-radius: 40px;

@@ -28,7 +28,7 @@ export const teamSectionContent: TeamSectionContent = {
 
 export const teamMembers: TeamMember[] = [
   {
-    name: "Alexandra Moore",
+    name: "Younesse Kaddar",
     position: "Chief AI Architect",
     image: "/assets/imgs/team/team-10.webp",
     socials: {
@@ -39,7 +39,7 @@ export const teamMembers: TeamMember[] = [
     },
   },
   {
-    name: "Emily Rodriguez",
+    name: "Rob Cornish",
     position: "Head of Data Science",
     image: "/assets/imgs/team/team-11.webp",
     socials: {
@@ -50,7 +50,7 @@ export const teamMembers: TeamMember[] = [
     },
   },
   {
-    name: "Jordan Williams",
+    name: "Pedro Amorim",
     position: "AI Ethics Officer",
     image: "/assets/imgs/team/team-12.webp",
     socials: {
@@ -61,7 +61,7 @@ export const teamMembers: TeamMember[] = [
     },
   },
   {
-    name: "Ethan Brooklyn",
+    name: "Nikolaj Jensen",
     position: "AI Research Lead",
     image: "/assets/imgs/team/team-13.webp",
     socials: {
@@ -71,28 +71,51 @@ export const teamMembers: TeamMember[] = [
       linkedin: "#",
     },
   },
-  //  {
-  //   name: "Alexandra Moore",
-  //   position: "Chief AI Architect",
-  //   image: "/assets/imgs/team/team-10.webp",
-  //   socials: {
-  //     instagram: "#",
-  //     twitter: "#",
-  //     facebook: "#",
-  //     linkedin: "#",
-  //   },
-  // },
-  // {
-  //   name: "Emily Rodriguez",
-  //   position: "Head of Data Science",
-  //   image: "/assets/imgs/team/team-11.webp",
-  //   socials: {
-  //     instagram: "#",
-  //     twitter: "#",
-  //     facebook: "#",
-  //     linkedin: "#",
-  //   },
-  // },
+   {
+    name: "Mohammed Mahfoud",
+    position: "Chief AI Architect",
+    image: "/assets/imgs/team/team-10.webp",
+    socials: {
+      instagram: "#",
+      twitter: "#",
+      facebook: "#",
+      linkedin: "#",
+    },
+  },
+  {
+    name: "Paolo Perrone",
+    position: "Head of Data Science",
+    image: "/assets/imgs/team/team-11.webp",
+    socials: {
+      instagram: "#",
+      twitter: "#",
+      facebook: "#",
+      linkedin: "#",
+    },
+  },
+ 
+   {
+    name: "Sam Staton",
+    position: "Chief AI Architect",
+    image: "/assets/imgs/team/team-10.webp",
+    socials: {
+      instagram: "#",
+      twitter: "#",
+      facebook: "#",
+      linkedin: "#",
+    },
+  },
+  {
+    name: "Jacek Karwowski",
+    position: "Head of Data Science",
+    image: "/assets/imgs/team/team-11.webp",
+    socials: {
+      instagram: "#",
+      twitter: "#",
+      facebook: "#",
+      linkedin: "#",
+    },
+  },
   // {
   //   name: "Jordan Williams",
   //   position: "AI Ethics Officer",

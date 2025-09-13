@@ -11,7 +11,7 @@ interface IWorkProps {
   all?: boolean;
 }
 const WorkSection: React.FC<IWorkProps> = ({ all, type }) => {
-  const totalPortfolio = all ? portfolioItems : portfolioItems?.slice(0, 2);
+  const totalPortfolio = all ? portfolioItems : portfolioItems?.slice(0, 4);
 
   return (
     <section className="work-area-4">
