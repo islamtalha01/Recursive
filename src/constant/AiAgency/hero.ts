@@ -18,14 +18,16 @@ export interface HeroData {
   brands: IBrand[];
 }
 
+// Make AI agents steerable and aligned
+
 const heroData: HeroData = {
     bgImage: "/assets/imgs/shape/shape-22.webp",
     shape1: "/assets/imgs/shape/shape-20.webp",
     shape2: "/assets/imgs/shape/shape-21.webp",
-    titleSpanOne: "Innovating",
-    titleText: "the Future of AI with",
-    titleSpanTwo: "Averto",
-    subtitle: "Focusing on how Averto AI is pushing boundaries in design and innovation",
+    titleSpanOne: "Make ",
+    titleText: "AI agents ",
+    titleSpanTwo: "steerable and aligned",
+    subtitle: "We align foundation AI models with human intent through steerable, verifiable world models for safe, trustworthy deployment.",
     primaryBtnText: "Get Started",
     primaryBtnLink: "/ai-agency/contact",
     secondaryBtnText: "Contact Us",

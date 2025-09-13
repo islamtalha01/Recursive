@@ -65,7 +65,7 @@ const Home = (): ReactElement => {
       <SmoothScroll>
         <main>
           <HeroSection data={heroData}/>
-          <TextSliderSection data={textSliderData}/>
+          {/* <TextSliderSection data={textSliderData}/> */}
           <AboutTwoSection data={aboutTwoData}/>
           <AboutSection data={aboutData}/>
           <ServiceSection />

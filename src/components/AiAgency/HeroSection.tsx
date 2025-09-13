@@ -69,7 +69,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data: heroData }) => {
         </div>
 
         {/* Brand Slider */}
-        <div className="brand-area-4">
+        {/* <div className="brand-area-4">
           <div className="container">
             <div className="brand-area-4-inner section-spacing">
               <div className="section-header">
@@ -105,7 +105,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data: heroData }) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

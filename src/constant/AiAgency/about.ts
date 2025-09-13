@@ -8,16 +8,17 @@ export interface AboutData {
   buttonText: string;
 }
 const aboutData = {
-  subtitle: "ABOUT AI",
-  title: "Shaping Our Future with Advanced AI Technologies",
+  subtitle: "About Us",
+  title: "We're developing technology to prevent AI agents from drifting off-course during critical tasks.",
   paragraphs: [
-    "We are passionate about harnessing the power of artificial intelligence to create smart, innovative solutions that drive growth and transformation.",
-    "Our team of AI experts, data scientists, and creative technologists work collaboratively to develop customized AI models that solve complex challenges, streamline operations, and enhance user experiences.",
+   
+    "More precisely, our mission is to keep long‑horizon AI on plan, by aligning foundation AI models/AI agents with human intent through steerable, verifiable world models for safe, trustworthy deployment.",
+     "AI agents are being deployed everywhere (not just in software engineering, also critical domains like finance, law, etc",
   ],
   image: "/assets/imgs/shape/shape-23.webp",
-  imageAlt: "About AI",
+  imageAlt: "About Us",
   aboutLink: "/ai-agency/about",
-  buttonText: "About Agency",
+  buttonText: "About Us",
 };
 
 export default aboutData;
