@@ -29,7 +29,7 @@ export const teamSectionContent: TeamSectionContent = {
 export const teamMembers: TeamMember[] = [
   {
     name: "Younesse Kaddar",
-    position: "Chief AI Architect",
+    position: "Director of Recursive Safeguarding Ltd",
     image: "/assets/imgs/team/team-10.webp",
     socials: {
       instagram: "#",
@@ -40,7 +40,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Rob Cornish",
-    position: "Head of Data Science",
+    position: "Cofounder and Director of Quro Medical",
     image: "/assets/imgs/team/team-11.webp",
     socials: {
       instagram: "#",
@@ -51,7 +51,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Pedro Amorim",
-    position: "AI Ethics Officer",
+    position: "Faculty at Bath Univ",
     image: "/assets/imgs/team/team-12.webp",
     socials: {
       instagram: "#",
@@ -62,7 +62,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Nikolaj Jensen",
-    position: "AI Research Lead",
+    position: "Oxford Univ PhD student in AI and theory",
     image: "/assets/imgs/team/team-13.webp",
     socials: {
       instagram: "#",
@@ -73,7 +73,7 @@ export const teamMembers: TeamMember[] = [
   },
    {
     name: "Mohammed Mahfoud",
-    position: "Chief AI Architect",
+    position: "Led Exa-scale Safeguards Research at Anthropic",
     image: "/assets/imgs/team/team-10.webp",
     socials: {
       instagram: "#",
@@ -84,7 +84,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Paolo Perrone",
-    position: "Head of Data Science",
+    position: "Oxford Univ postdoc",
     image: "/assets/imgs/team/team-11.webp",
     socials: {
       instagram: "#",
@@ -96,7 +96,18 @@ export const teamMembers: TeamMember[] = [
  
    {
     name: "Sam Staton",
-    position: "Chief AI Architect",
+    position: "Oxford Univ Professor",
+    image: "/assets/imgs/team/team-10.webp",
+    socials: {
+      instagram: "#",
+      twitter: "#",
+      facebook: "#",
+      linkedin: "#",
+    },
+  },
+ {
+    name: "Ali zein",
+    position: "  Tech and start-up background (Munich, Oxford, Cambridge)",
     image: "/assets/imgs/team/team-10.webp",
     socials: {
       instagram: "#",
@@ -107,7 +118,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Jacek Karwowski",
-    position: "Head of Data Science",
+    position: "Oxford Univ PhD student in AI and theory",
     image: "/assets/imgs/team/team-11.webp",
     socials: {
       instagram: "#",
